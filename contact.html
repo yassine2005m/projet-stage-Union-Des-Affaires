@@ -303,6 +303,13 @@
                     }, 2000);
                 });
             }
+            const menuBtn = document.getElementById('mobile-menu-btn');
+const nav = document.querySelector('.nav-premium');
+
+menuBtn.addEventListener('click', () => {
+  nav.classList.toggle('active');
+});
+
             
             // Bouton back to top
             const backToTopBtn = document.getElementById('backToTop');

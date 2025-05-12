@@ -462,6 +462,12 @@
     document.getElementById('contact-modal').style.display = 'none';
     document.body.style.overflow = 'auto';
 });
+const menuBtn = document.getElementById('mobile-menu-btn');
+const nav = document.querySelector('.nav-premium');
+
+menuBtn.addEventListener('click', () => {
+  nav.classList.toggle('active');
+});
 
             
             solutionTabs.forEach(tab => {

@@ -20,6 +20,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width: 768px) {
+  .nav-premium {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-premium.active {
+    display: block;
+  }
+}
 
 body {
     font-family: var(--font-main);
